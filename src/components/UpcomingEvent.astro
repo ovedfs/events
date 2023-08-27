@@ -1,0 +1,40 @@
+---
+const {title, date, schedule, image} = Astro.props
+const bg = `url(${image})`
+---
+
+<article class="mb-4 text-center rounded p-2 text-white">
+  <h3>{title}</h3>
+  <div class="">
+    <p class="m-0 bg-dark bg-opacity-25 rounded-top">
+      <i class="fa-solid fa-calendar-days"></i>
+      {date}
+    </p>
+    <p class="mt-0 bg-dark bg-opacity-25 rounded-bottom">
+      <i class="fa-solid fa-clock"></i>
+      {schedule}
+    </p>
+    <a href="#" class="btn btn-sm btn-danger">
+      Mas información
+    </a>
+  </div>
+</article>
+
+<style define:vars={{bg}}>
+  article {
+    background-image: var(--bg);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  h3 {
+    flex-grow: 1;
+    text-shadow: 1px 1px 3px #444;
+  }
+  p {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+  }
+</style>

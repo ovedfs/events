@@ -1,0 +1,25 @@
+---
+import AppLayout from "../layouts/AppLayout.astro";
+import events from "../data/events.json"
+import Hero from "../components/Hero.astro";
+import UpcomingEvent from "../components/UpcomingEvent.astro";
+
+---
+
+<AppLayout title="Events">
+  <Hero image="/images/hero03.jpg" title="Upcoming Events" />
+  <div class="row mt-4">
+    {
+      events.map(({title, date, schedule, image}) => (
+        <div class="col-md-6 col-lg-4">
+          <UpcomingEvent 
+            title={title} 
+            date={date}
+            schedule={schedule}
+            image={image}
+          />
+        </div>
+      ))
+    }  
+  </div>
+</AppLayout>

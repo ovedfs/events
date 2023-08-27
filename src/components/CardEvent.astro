@@ -1,0 +1,17 @@
+---
+const {title, description} = Astro.props
+---
+
+<article class="card mb-4">
+  <div class="card-header">
+    {title}
+  </div>
+  <div class="card-body">
+    <p>{description}</p>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="btn btn-danger">
+      Ver más
+    </a>
+  </div>
+</article>

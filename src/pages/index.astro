@@ -1,15 +1,37 @@
 ---
+import Hero from "../components/Hero.astro";
+import CardEvent from "../components/CardEvent.astro";
+import AppLayout from "../layouts/AppLayout.astro";
+
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<AppLayout title="Home">
+	<Hero image="/images/hero01.jpg" title="Home" />
+	<h2 class="text-warning my-2">Upcoming Events</h2>
+	<div class="row">
+		<div class="col-md-6 col-lg-4">
+			<CardEvent 
+				title="Feria del conocimiento" 
+				description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus eligendi vitae, eos ipsa nostrum numquam voluptatem eius aperiam assumenda deleniti, nobis vel tempore nihil molestiae."
+			/>
+		</div>
+		<div class="col-md-6 col-lg-4">
+			<CardEvent 
+				title="Tardes de lectura" 
+				description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus eligendi vitae, eos ipsa nostrum numquam voluptatem eius aperiam assumenda deleniti, nobis vel tempore nihil molestiae."
+			/>
+		</div>
+		<div class="col-md-6 col-lg-4">
+			<CardEvent 
+				title="Platicas sobre nutrición" 
+				description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus eligendi vitae, eos ipsa nostrum numquam voluptatem eius aperiam assumenda deleniti, nobis vel tempore nihil molestiae."
+			/>
+		</div>
+		<div class="col-md-6 col-lg-4">
+			<CardEvent 
+				title="Platicas sobre nutrición" 
+				description="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus eligendi vitae, eos ipsa nostrum numquam voluptatem eius aperiam assumenda deleniti, nobis vel tempore nihil molestiae."
+			/>
+		</div>
+	</div>
+</AppLayout>

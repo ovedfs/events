@@ -1,0 +1,72 @@
+[
+  {
+      "title": "Concierto en Vivo",
+      "description": "Disfruta de una noche llena de música en nuestro concierto en vivo.",
+      "date": "2023-08-30",
+      "schedule": "19:00 - 22:00",
+      "image": "/images/event1.jpg"
+  },
+  {
+      "title": "Charla Inspiradora",
+      "description": "Únete a nosotros para una charla inspiradora sobre el crecimiento personal.",
+      "date": "2023-09-05",
+      "schedule": "15:00 - 17:00",
+      "image": "/images/event2.jpg"
+  },
+  {
+      "title": "Exposición de Arte",
+      "description": "Explora una variedad de obras de arte en nuestra exposición.",
+      "date": "2023-09-12",
+      "schedule": "10:00 - 18:00",
+      "image": "/images/event3.jpg"
+  },
+  {
+      "title": "Taller de Cocina",
+      "description": "Aprende a cocinar platos deliciosos con nuestros chefs expertos.",
+      "date": "2023-09-18",
+      "schedule": "14:00 - 16:00",
+      "image": "/images/event4.jpg"
+  },
+  {
+      "title": "Feria de Ciencia",
+      "description": "Descubre el asombroso mundo de la ciencia a través de experimentos interactivos.",
+      "date": "2023-09-22",
+      "schedule": "09:00 - 15:00",
+      "image": "/images/event5.jpg"
+  },
+  {
+      "title": "Concurso de Pintura",
+      "description": "Demuestra tus habilidades artísticas en nuestro concurso de pintura temático.",
+      "date": "2023-09-28",
+      "schedule": "11:00 - 13:00",
+      "image": "/images/event6.jpg"
+  },
+  {
+      "title": "Noche de Comedia",
+      "description": "Ríete a carcajadas con los mejores comediantes locales en nuestra noche de comedia.",
+      "date": "2023-10-03",
+      "schedule": "20:00 - 22:00",
+      "image": "/images/event7.jpg"
+  },
+  {
+      "title": "Clase de Yoga al Aire Libre",
+      "description": "Encuentra la paz interior y la relajación en nuestra clase de yoga al aire libre.",
+      "date": "2023-10-10",
+      "schedule": "08:00 - 09:30",
+      "image": "/images/event8.jpg"
+  },
+  {
+      "title": "Festival de Cine",
+      "description": "Explora una selección de películas aclamadas de todo el mundo en nuestro festival de cine.",
+      "date": "2023-10-18",
+      "schedule": "17:00 - 23:00",
+      "image": "/images/event9.jpg"
+  },
+  {
+      "title": "Carrera Benéfica",
+      "description": "Únete a nuestra carrera benéfica para apoyar una causa importante y mantenerte activo.",
+      "date": "2023-10-25",
+      "schedule": "09:00 - 12:00",
+      "image": "/images/event10.jpg"
+  }
+]
